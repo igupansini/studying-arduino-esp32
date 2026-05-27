@@ -1,3 +1,9 @@
 spring:
   application:
     name: poc-mqtt
+
+mqtt:
+  broker-url: tcp://broker.hivemq.com:1883
+  client-id: poc-mqtt-spring-pansini
+  topic-status: pansini/esp32/status
+  topic-command: pansini/esp32/command
